@@ -37,7 +37,7 @@ Using technologies such as:
 
 
 <h2>Demo</h2>
-https://github.com/BartoszKoza/to-do-list.git
+https://bartoszkoza.github.io/to-do-list/
 
 <h2>Author</h2>
 Bartosz Koza
