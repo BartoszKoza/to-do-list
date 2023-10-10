@@ -19,8 +19,10 @@ This application has been created to help you manage your daily tasks and respon
 ![preview](/images/Delete_Task.gif/)
 
 <h2>4. Device Compatibility</h2>
-Our application is compatible with both mobile phones and tablets, providing users with the flexibility to use it on various mobile devices. This allows you to manage your tasks seamlessly, regardless of where you are and which device you are using.
 
+* Our application is compatible with both mobile phones and tablets, providing users with the flexibility to use it on various mobile devices. This allows you to manage your tasks seamlessly, regardless of where you are and which device you are using.
+
+![preview](/images/Mobile_List.gif/)
 
 
 Project was created with:
@@ -31,8 +33,8 @@ Project was created with:
 Using technologies such as:
 * BEM
 * Flexbox
-* Grid
-* ES6+ features
+
+
 
 <h2>Demo</h2>
 https://github.com/BartoszKoza/to-do-list.git
