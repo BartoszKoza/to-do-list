@@ -33,8 +33,8 @@ Project was created with:
 Using technologies such as:
 * BEM
 * Flexbox
-* Grid
-* ES6+ features
+
+
 
 <h2>Demo</h2>
 https://github.com/BartoszKoza/to-do-list.git
