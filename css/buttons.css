@@ -1,0 +1,28 @@
+.js-done{
+    background-color: rgb(7, 160, 7);
+    color: white;
+    width: 31px;
+    height: 31px;
+    border: none;
+    text-decoration: none;
+}
+
+.js-remove{
+    background-color: red;
+    color: white;
+    height: 31px;
+    width: 31px;
+    border: none;
+    text-decoration: none;
+}
+
+.taskButton--done{
+    text-decoration: none;
+}
+
+.addTaskButton{
+    background-color: teal;
+    color: white;
+    border: none;
+    padding: 7px;
+}

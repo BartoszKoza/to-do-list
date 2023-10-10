@@ -1,0 +1,22 @@
+.flex{
+    padding-top: 15px;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.flex__item{
+    margin: 5px;
+    flex-basis: 150px;
+    max-width: 1000px;
+}
+
+.flex__item--first{
+    flex-grow: 1;
+}
+
+@media(max-width: 797px) {
+    .flex__item {
+        flex-basis: 100%;
+        
+    }
+}

@@ -11,17 +11,22 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
     <script defer src="js/script.js"></script>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/body.css" rel="stylesheet">
+    <link href="css/buttons.css" rel="stylesheet">
+    <link href="css/flex.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
 
 </head>
-<body>
+<body class="body">
     <h1 class="header">Lista zadań</h1>
 
-    <section>
+    <section class="formSection">
         <form class="js-form form">
-            <h2>Dodaj nowe zadanie</h2>
-            <div>
-                <input type="text" placeholder="Co jest do zrobienia?" class="js-newTask">
-                <button class="addTaskButton">Dodaj zadanie</button>
+            <h2 class="formHeader">Dodaj nowe zadanie</h2>
+            <div class="flex">
+                <input type="text" placeholder="Co jest do zrobienia?" class="js-newTask flex__item flex__item--first" autofocus>
+                <button class="addTaskButton flex__item">Dodaj zadanie</button>
             </div>
         </form>
     </section>
@@ -30,7 +35,7 @@
         <h2 class="tasksHeader">Lista zadań</h2>
 
         <ul class="js-tasks tasks"></ul>
-        
+
     </section>
     
 </body>

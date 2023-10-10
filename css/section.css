@@ -1,0 +1,39 @@
+.formSection{
+    background-color: white;
+    padding: 25px;
+    
+}
+
+.taskSection{
+    background-color: white;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+
+
+.taskContent{
+   text-align: start;
+   padding: 10px;
+}
+
+.listItem{
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    padding: 10px;
+    border-bottom: 2px solid #eee;
+
+    
+}
+
+.tasksItem--done{
+    text-decoration: line-through;
+}
+
+.formHeader{
+    margin: auto;
+}
+
+
+
