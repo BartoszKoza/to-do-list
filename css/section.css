@@ -33,10 +33,18 @@
 
 .formHeader{
     margin: auto;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
 }
 
 .header{
     margin-left: 10px;
+    
+}
+
+.tasksHeader{
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
 }
 
 
