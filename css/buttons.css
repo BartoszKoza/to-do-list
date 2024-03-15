@@ -1,19 +1,31 @@
 .js-done{
-    background-color: rgb(7, 160, 7);
+    background-color: hsl(120, 92%, 33%);
     color: white;
     width: 31px;
     height: 31px;
     border: none;
     text-decoration: none;
+    transition: 1s;
+}
+
+.js-done:hover{
+    background-color:  hsl(120, 92%, 45%);
+
 }
 
 .js-remove{
-    background-color: red;
+    background-color: hsl(0, 100%, 50%);
     color: white;
     height: 31px;
     width: 31px;
     border: none;
     text-decoration: none;
+    transition: 1s;
+}
+
+.js-remove:hover {
+    background-color: hsl(0, 100%, 65%);
+    
 }
 
 .taskButton--done{
@@ -25,4 +37,10 @@
     color: white;
     border: none;
     padding: 7px;
+    transition: 1s;
+}
+
+.addTaskButton:hover {
+    background-color: hsl(180, 100%, 30%);
+    transform: scale(1.07);
 }
