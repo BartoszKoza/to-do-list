@@ -42,10 +42,29 @@
     
 }
 
-.tasksHeader{
+.list_sectionHeader{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-gap: 20px;
+    padding: 10px 20px;
     border-bottom: 2px solid #eee;
-    padding-bottom: 10px;
 }
 
+.js-newButtons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media(max-width:797px) {
+    .list_sectionHeader {
+        grid-template-columns: 1fr;
+    }
+
+    .js-newButtons {
+        justify-content: center;
+    }
+}
 
 
