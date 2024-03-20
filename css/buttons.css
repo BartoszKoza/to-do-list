@@ -58,3 +58,7 @@
     color: hsl(180, 100%, 30%);
     transition: 0.3s;
 }
+
+.js-markAllDone:disabled{
+    color: hsla(0, 0%, 50%, 0.438);
+}

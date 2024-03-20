@@ -1,0 +1,16 @@
+@media(max-width: 797px) {
+    .flex__item {
+        flex-basis: 100%;
+        
+    }
+}
+
+@media(max-width:797px) {
+    .list_sectionHeader {
+        grid-template-columns: 1fr;
+    }
+
+    .js-newButtons {
+        justify-content: center;
+    }
+}
