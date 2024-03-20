@@ -1,23 +1,32 @@
 {
-    const tasks = [];
+    let tasks = [];
 
     const addNewTask = (newTaskContent) => {
-        tasks.push({
-            content: newTaskContent,
-        })
+       tasks = [
+        ...tasks,
+        {content: newTaskContent}
+       ];
         
         render();
     };
 
     const removeTask = (taskIndex) => {
-        tasks.splice(taskIndex, 1);
-                render();
+        tasks = [
+            ...tasks.slice(0, taskIndex),
+            ...tasks.slice(taskIndex + 1)
+        ];
+
+        render();
     };
 
     const toggleTaskDone = (taskIndex) => {
-        tasks[taskIndex].done = !tasks[taskIndex].done;
-        render();
-    }
+      tasks = [
+        ...tasks.slice(0, taskIndex),
+        {...tasks[taskIndex], done: !tasks[taskIndex].done},
+        ...tasks.slice(taskIndex + 1)
+      ];
+      render();  
+    };
 
     const bindEvents = () => {
         const removeButtons = document.querySelectorAll(".js-remove");
@@ -72,14 +81,14 @@
         const newTaskInput = document.querySelector(".js-newTask");
         const newTaskContent = newTaskInput.value.trim();
 
-        if(newTaskContent === "") {
-            newTaskInput.focus();
-            return;
+        if(newTaskContent !== "") {
+            addNewTask(newTaskContent);
+            newTaskInput.value = "";
         }
 
-       addNewTask(newTaskContent);
-       newTaskInput.value = "";
+       
        newTaskInput.focus();
+
        
     };
 
